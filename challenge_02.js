@@ -16,3 +16,17 @@ Alter 13-17 // Cola
 
 /* Getränke-Challenge */
 
+// let eingabeName = prompt("Bitte geben Sie den Namen einer Person ein.")
+const eingabeName = "Max"
+let eingabeAlter = parseInt(prompt("Bitte geben Sie das Alter der Person ein."))
+
+if (eingabeAlter <6) {
+    console.log(eingabeName + " trinkt Milch")
+} else if (eingabeAlter <13){
+    console.log(eingabeName + " trinkt Saft")
+} else if (eingabeAlter <18){
+    console.log(eingabeName + " trinkt Cola")
+} else if (eingabeAlter >17){
+    console.log(eingabeName + " trinkt Wein")
+} else {console.log(eingabeName + " trinkt nichts")
+}
